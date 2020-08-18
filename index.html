@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <title>Minha página</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+        <body>
+            <button type="button" onClick="clicou()">Clique aqui</button>
+            <p id="agradecimento" onClick="redirecionar()"></p>
+            <p onmouseover="trocar(this)" onmouseout="voltar(this)">
+                Passe o mouse aqui.
+            </p>
+            <select onchange="funcaoChange(this)">
+                <option value="Vodka">Vodka</option>
+                <option value="Água de coco">Água de coco</option>
+                <option value="Tanto faz">Tanto faz</option>
+            </select>
+        </body>
+</html>
